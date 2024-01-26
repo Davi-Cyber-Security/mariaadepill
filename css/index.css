@@ -244,3 +244,10 @@ footer{
     text-shadow: 1px 1px 4px black;
     background: linear-gradient(90deg, #d21b54, #964dcc);
 }
+@media (max-width: 349px){
+    .card_img{
+        width: 230px;
+        height: 250px;
+        padding-bottom: 10px;
+    }
+}
