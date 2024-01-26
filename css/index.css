@@ -273,3 +273,34 @@ footer{
         gap: 20px;
     }
 }
+/*the end tela de 360px*/
+
+@media (max-width: 251px){
+    .card_img{
+        width: 200px;
+        height: 200px;
+        padding-bottom: 10px;
+    }
+    .card{
+        box-shadow: 1px 1px 4px black;
+        padding: 8px;
+        /*
+        background: linear-gradient(180deg, #ea6fbb, #faa1e2, #e1147b);
+        */
+        background-color: white;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 1;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 4px;
+        gap: 20px;
+    }
+}
