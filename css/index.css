@@ -230,6 +230,9 @@ footer{
     text-shadow: 1px 1px 4px black;
     font-size: 25px;
     padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .instagram{
     text-decoration: none;
