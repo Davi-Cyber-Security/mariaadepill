@@ -6,6 +6,11 @@
 body{
     background: linear-gradient(180deg, #ea6fbb, #faa1e2, #e1147b)
 }
+main{
+    margin: 0 auto;
+    max-width: 1024px;
+    text-align: justify;
+}
 header{
     display: flex;
     align-items: center;
